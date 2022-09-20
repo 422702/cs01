@@ -15,6 +15,7 @@ number1= int.Parse(input);
 Console.WriteLine("Введите число");
 input=Console.ReadLine();
 number2= int.Parse(input);
+Console.WriteLine("Введите число");
 input=Console.ReadLine();
 int number3= int.Parse(input);
 if(number1>number2&&number1>number3)Console.WriteLine($"Чило{number1} больше");
