@@ -27,3 +27,12 @@ Console.WriteLine("Введите число");
 input=Console.ReadLine(  );
 number1= int.Parse(input);
 if((number1 % 2)==0)Console.WriteLine("число чётное"); else Console.WriteLine("число не чётное");
+
+Console.WriteLine("Задача№8");
+Console.WriteLine("Введите число");
+input=Console.ReadLine(  );
+number1= int.Parse(input);
+if((number1 % 2)!=0)number1=number1-1;
+Console.WriteLine("Чётные числа по убыванию");
+for(;number1>0;number1=number1-2)
+Console.WriteLine($"{number1}");
