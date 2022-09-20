@@ -10,11 +10,11 @@ if(number1>number2)Console.WriteLine($"Чило{number1} больше"); else Co
 
 Console.WriteLine("Задача№4");
 Console.WriteLine("Введите число");
-string input=Console.ReadLine(  );
-int number1= int.Parse(input);
+input=Console.ReadLine(  );
+number1= int.Parse(input);
 Console.WriteLine("Введите число");
 input=Console.ReadLine();
-int number2= int.Parse(input);
+number2= int.Parse(input);
 input=Console.ReadLine();
 int number3= int.Parse(input);
 if(number1>number2&&number1>number3)Console.WriteLine($"Чило{number1} больше");
